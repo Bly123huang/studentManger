@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="arraryList">
+      <UniqueIdentifier>{2e2737ec-4fb0-4bd4-b069-b64e722ed2fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="学生信息管理">
+      <UniqueIdentifier>{dd84f761-e7fc-49ea-8259-f58df144d13b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="学生成绩管理">
+      <UniqueIdentifier>{dfb6f2e1-d3de-4975-b388-2c1dea8acdd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="登录注册">
+      <UniqueIdentifier>{24bc41f7-a980-4115-abf7-f7442a3042c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log">
+      <UniqueIdentifier>{e35ba501-5147-4ab3-aca8-f7019b69facf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="file">
+      <UniqueIdentifier>{04e518ba-bea2-4ed2-be74-f5d38085207f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="教师管理">
+      <UniqueIdentifier>{dcc72e6d-dd68-4ff6-9695-75951a43eaf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="班级管理">
+      <UniqueIdentifier>{a7cc7b1e-5a42-4f71-ae0f-56d2749c5190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="home">
+      <UniqueIdentifier>{7bbd7679-e47a-4ab1-aa17-099c02efafbb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="arraryList.cpp">
+      <Filter>arraryList</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="home.cpp">
+      <Filter>home</Filter>
+    </ClCompile>
+    <ClCompile Include="studentManagement.cpp">
+      <Filter>学生信息管理</Filter>
+    </ClCompile>
+    <ClCompile Include="scoreManagement.cpp">
+      <Filter>学生成绩管理</Filter>
+    </ClCompile>
+    <ClCompile Include="login.cpp">
+      <Filter>登录注册</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="file.cpp">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="class.cpp">
+      <Filter>班级管理</Filter>
+    </ClCompile>
+    <ClCompile Include="teacherManage.cpp">
+      <Filter>教师管理</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="arraryList.h">
+      <Filter>arraryList</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="home.h">
+      <Filter>home</Filter>
+    </ClInclude>
+    <ClInclude Include="studentManagement.h">
+      <Filter>学生信息管理</Filter>
+    </ClInclude>
+    <ClInclude Include="scoreManagement.h">
+      <Filter>学生成绩管理</Filter>
+    </ClInclude>
+    <ClInclude Include="login.h">
+      <Filter>登录注册</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="file.h">
+      <Filter>file</Filter>
+    </ClInclude>
+    <ClInclude Include="teacherManage.h">
+      <Filter>教师管理</Filter>
+    </ClInclude>
+    <ClInclude Include="class.h">
+      <Filter>班级管理</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
